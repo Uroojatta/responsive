@@ -1,0 +1,429 @@
+body {
+   margin: 0;
+   padding: 0;
+   font-family: Arial, sans-serif;
+   background-color: #f2f2f2;
+   text-align: center;
+   margin: 10px;
+   padding: 10px;
+}
+/* header */
+header{
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+ padding:8px 60px;
+}
+.bar{
+   display: flex;
+   position: absolute;
+   right:5%;
+}
+#login{
+   margin: 10px;
+padding: 10px;
+background-color: rgb(131, 84, 49);
+color: rgb(243, 237, 235);
+border: 1px solid rgb(102, 24, 24);
+border-radius: 5px;
+width: 80px;
+}
+
+/* simple bookmark manager */
+.manager{
+   width: 70%;
+   margin: 0 auto;
+   text-align: left;
+   padding: 20px;
+   border: 1px solid #ddd;
+   border-radius: 5px;
+   background-color: #fff;
+   margin-top: 50px;
+   display: flex; 
+}
+
+.manager h1{
+   font-size: 2em;
+   color: #333;
+   margin-bottom: 20px;
+}
+
+.manager p {
+   font-size: 1.2em;
+   color: #666;
+   margin-bottom: 30px;
+   margin: 20px;
+}
+
+.manager .image{
+   margin-left: 80px;
+}
+.browser{
+   flex-direction: row;
+}
+#chrome{
+   background-color: blue;
+   color: #e0f2f1;
+   padding: 0.75rem 1.5rem;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   transition: background-color 0.2s ease;
+}
+#firefox{
+   background-color: blue;
+   color: #e0f2f1;
+   padding: 0.75rem 1.5rem;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   transition: background-color 0.2s ease;
+}
+
+/* features */
+.feature{
+   width: 50%;
+   margin: 0 auto 50px auto;
+   text-align: right;
+   padding: 60px;
+   border: 1px solid #ddd;
+   border-radius: 5px;
+   background-color: #fff;
+}
+
+.feature h2{
+   text-align: center;
+   font-size: 1.5em;
+   color: #333;
+   margin-bottom: 20px;
+}
+
+.feature p{
+   font-size: 1.2em;
+   color: #666;
+   margin-bottom: 30px;
+}
+/*  book mark in one click */
+.click{
+   width: 70%;
+   margin: 0 auto 20px auto;
+   padding: 40px;
+   border: 1px solid #ddd;
+   border-radius: 5px;
+   background-color: #fff;
+   display: flex;
+flex-direction: row;
+}
+.click h1{
+   font-size: 2em;
+   color: #333;
+   margin-bottom: 5px;
+   padding: 20px;
+}
+.click p{
+   margin-right: 20px;
+   padding: 20px;
+}
+
+.click .image{
+  padding: 20px;
+   margin-left: 20px;
+}
+
+#click{
+   background-color: blue;
+   color: #e0f2f1;
+   padding: 0.75rem 1.5rem;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   transition: background-color 0.2s ease;
+}
+/* Intelligent Search */
+.intelligent{
+   width: 70%;
+   margin: 0 auto;
+   text-align: left;
+   padding: 20px;
+   border: 1px solid #ddd;
+   border-radius: 5px;
+   background-color: #fff;
+   margin-top: 50px;
+   display: flex;  
+}
+.search #search{
+   background-color: blue;
+   color: #e0f2f1;
+   padding: 0.75rem 1.5rem;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   transition: background-color 0.2s ease;
+}
+#image3{
+   margin-left: 20px;
+   padding: 20px;
+}
+
+/* Share your bookmarks  */
+.image4{
+   width: 70%;
+   margin: 0 auto;
+   text-align: left;
+   padding: 20px;
+   border: 1px solid #ddd;
+   border-radius: 5px;
+   background-color: #fff;
+   margin-top: 50px;
+   display: flex;
+}
+#share{
+   background-color: blue;
+   color: #e0f2f1;
+   padding: 0.75rem 1.5rem;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   transition: background-color 0.2s ease;
+}
+#image4{
+   margin-left: 20px;
+   padding: 20px;
+}
+
+/* download the extension */
+.box{
+   display: flex;
+   text-align: center;
+   flex-direction: column;
+   justify-content: center;
+}
+.box p{
+   text-align: center;
+   
+}
+.box2{
+display: flex;
+margin: 10px;
+justify-content: center;
+}
+.chrome{
+   width: 200px;
+   border: 1px solid grey;
+   text-align: center;
+   padding: 5px;
+   margin: 10px;
+   border-radius: 5px;
+}
+.firefox{
+   width: 200px;
+   border: 1px solid grey;
+   text-align: center;
+   padding: 5px;
+   margin: 10px;
+   border-radius: 5px;
+}
+.opera{
+   width: 200px;
+   border: 1px solid grey;
+   text-align: center;
+   padding: 10px;
+   margin: 10px;
+   border-radius: 5px;  
+}
+/* question */
+.container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.question{
+   border: 1px solid rgb(224, 209, 209);
+   width: 500px;
+   border-radius: 5px;
+   text-align: center;
+   padding: 8px;
+}
+hr{
+   color: #ebdddd;
+}
+#FAQs{
+   height: 30px;
+ width: 100px;
+ border: none;
+ border-radius: 5px;
+ padding: 10px;
+ margin: 10px;
+ color: azure;
+ background-color: blue;
+ text-align: center;
+}
+
+/* contact */
+ .contact{
+   text-align: center;
+width: 100%;
+height: 60%;
+background-color: rgb(68, 22, 236); 
+padding: 30px;
+color: rgb(243, 241, 248);
+ }
+ .mail{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 40px;
+ }
+ #email{
+ height: 30px;
+ width: 200px;
+ border: none;
+ border-radius: 15px;
+ padding: 10px;
+ margin: 10px;
+ }
+ #contact{
+  height: 30px;
+ width: 150px;
+ border: none;
+ border-radius: 7px;
+ padding: 25px ;
+ color: white;
+ background-color: rgb(172, 19, 19);
+ text-align: center;
+ margin: 10px;
+ }
+
+ /* footer */
+ footer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 40%;
+    background-color: rgb(56, 37, 75);
+    color: rgb(177, 212, 212);
+    padding: 40px;
+ }
+.socialmedia{
+   position: absolute;
+   right: 40px;
+}
+ul {
+   display: flex;
+    align-items: center;
+   list-style-type: none;
+ }
+ li{
+   margin: 10px;
+ }
+ /* Default styles */
+
+ body {
+   margin: 0;
+   padding: 0;
+   font-family: Arial, sans-serif;
+   background-color: #f2f2f2;
+   text-align: center;
+}
+
+/* Header */
+
+header {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   padding: 8px 60px;
+}
+
+.bar {
+   display: flex;
+}
+
+#login {
+   margin: 10px;
+   padding: 10px;
+   background-color: rgb(131, 84, 49);
+   color: rgb(243, 237, 235);
+   border: 1px solid rgb(102, 24, 24);
+   border-radius: 5px;
+   width: 80px;
+}
+
+/* Main content */
+
+main {
+   width: 100%;
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 20px;
+   box-sizing: border-box;
+}
+
+/* Responsive styles */
+
+@media only screen and (max-width: 768px) {
+   /* Adjust header */
+   header {
+       flex-direction: column;
+   }
+
+   .bar {
+       margin-top: 10px;
+   }
+
+   /* Adjust manager */
+   .manager,
+   .feature,
+   .click,
+   .intelligent,
+   .image4 {
+       flex-direction: column;
+   }
+
+   /* Adjust image */
+   .manager .image,
+   .click .image {
+       margin-left: 0;
+       margin-top: 20px;
+   }
+
+   /* Adjust contact */
+   .contact {
+       padding: 20px;
+   }
+}
+
+@media only screen and (max-width: 600px) {
+   /* Adjust logo */
+   .logo img {
+       width: 150px;
+   }
+
+   /* Adjust header padding */
+   header {
+       padding: 8px 20px;
+   }
+}
+
+@media only screen and (max-width: 400px) {
+   /* Adjust logo */
+   .logo img {
+       width: 120px;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
